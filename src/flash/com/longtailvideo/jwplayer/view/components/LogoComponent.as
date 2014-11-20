@@ -46,6 +46,7 @@ package com.longtailvideo.jwplayer.view.components {
 		/** Constructor **/
 		public function LogoComponent(player:IPlayer) {
 			super(player, "logo");
+			/*
 			animations = new Animations(this);
 			_player = player;
 			var linkFlag:String = _getLinkFlag(_getEdition());
@@ -57,6 +58,7 @@ package com.longtailvideo.jwplayer.view.components {
 			if (getConfigParam('hide').toString().toLowerCase() == "false") {
 				show();
 			}
+			*/
 		}
 		
 		private function _getLinkFlag(edition:String):String {

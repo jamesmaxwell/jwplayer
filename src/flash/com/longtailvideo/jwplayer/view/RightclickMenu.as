@@ -47,8 +47,8 @@ package com.longtailvideo.jwplayer.view {
 
 		/** Initialize the rightclick menu. **/
 		public function initializeMenu():void {
-			setAboutText();
-			addItem(about, aboutHandler);
+			//setAboutText();
+			//addItem(about, aboutHandler);
 			if (Capabilities.isDebugger == true || _player.config.debug != Logger.NONE) {
 				debug = new ContextMenuItem('Logging to ' + _player.config.debug + '...');
 				addItem(debug, debugHandler);
@@ -56,7 +56,7 @@ package com.longtailvideo.jwplayer.view {
 		}
 		
 		protected function setAboutText():void {
-			about = new ContextMenuItem('About JW Player ' + _player.version + '...');
+			//about = new ContextMenuItem('About JW Player ' + _player.version + '...');
 		}
 
 		/** jump to the about page. **/
